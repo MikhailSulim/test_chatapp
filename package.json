@@ -1,6 +1,6 @@
 {
   "name": "chatapp",
-  "homepage": "/test_chatapp/",
+  "homepage": ".",
   "private": true,
   "version": "1.0.0",
   "scripts": {
