@@ -1,0 +1,67 @@
+.form {
+  &__title {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: aliceblue;
+  }
+
+  &__input-field {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    min-height: 3.5em;
+  }
+  &__input {
+    flex: 5;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    font-size: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    outline: none;
+
+    &:focus {
+      outline: 1px solid rgb(167, 210, 247);
+    }
+  }
+
+  &__button {
+    flex: 1;
+    font-size: 1.5em;
+    border-radius: 0.25em;
+    border: none;
+
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(27, 173, 27);
+      color: aliceblue;
+    }
+  }
+
+  &__select {
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    font-size: 1.5vh;
+    &-option {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+      font-size: 1.5vh;
+
+      &:checked {
+        background-color: rgb(27, 173, 27);
+      }
+    }
+    &:focus {
+      outline: 1px solid rgb(167, 210, 247);
+    }
+  }
+}

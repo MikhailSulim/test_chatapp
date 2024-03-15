@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom, #052970, #101725);
+  font-size: 1vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+button,
+ul,
+input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50em auto;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+.content {
+  max-width: 40vw;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
